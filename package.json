@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "m2ar9_opp_mybank",
+  "version": "1.0.1",
+  "description": "A simple CLI-based banking system.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["banking", "CLI","account balance", "cash deposit", "cash withdraw"],
+  "author": "Muneeba Arshad",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "chalk": "^4.1.2",
+    "cli-spinners": "^3.0.0",
+    "inquirer": "^9.2.21",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/jquery": "^3.5.30"
+  }
+}
